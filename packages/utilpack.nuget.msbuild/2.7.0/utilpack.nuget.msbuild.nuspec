@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>UtilPack.NuGet.MSBuild</id>
+    <version>2.7.0</version>
+    <title>MSBuild Task Factory for NuGet-Oriented MSBuild Tasks</title>
+    <authors>Stanislav Muhametsin</authors>
+    <owners>Stanislav Muhametsin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/CometaSolutions/UtilPack/tree/develop/Source/UtilPack.NuGet.MSBuild</projectUrl>
+    <description>Provides easy way to execute NuGet-based MSBuild tasks.</description>
+    <releaseNotes>Updated to NuGet 4.8.0.</releaseNotes>
+    <copyright>Stanislav Muhametsin</copyright>
+    <tags>utility nuget extensions msbuild task package resolve</tags>
+  </metadata>
+</package>

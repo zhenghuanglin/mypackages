@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="3.6">
+    <id>Pomelo.JsonObject</id>
+    <version>2.0.0</version>
+    <authors>Pomelo.JsonObject</authors>
+    <owners>Pomelo.JsonObject</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/PomeloFoundation/Pomelo.JsonObject/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/PomeloFoundation/Pomelo.JsonObject</projectUrl>
+    <iconUrl>http://www.1234.sh/assets/Shared/pomelofoundation.png</iconUrl>
+    <description>MySQL provider for Entity Framework Core</description>
+    <tags>JSON Entity Framework Core entity-framework-core MySQL EF ORM</tags>
+    <repository type="git" url="git://github.com/PomeloFoundation/Pomelo.JsonObject.git" commit="53194747f64ab977bd1cd9da8457286f61534dee" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.CSharp" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

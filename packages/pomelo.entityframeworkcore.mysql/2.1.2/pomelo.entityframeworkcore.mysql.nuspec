@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="3.6">
+    <id>Pomelo.EntityFrameworkCore.MySql</id>
+    <version>2.1.2</version>
+    <authors>Pomelo.EntityFrameworkCore.MySql</authors>
+    <owners>Pomelo.EntityFrameworkCore.MySql</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql</projectUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/19828814?v=3</iconUrl>
+    <description>MySQL provider for Entity Framework Core</description>
+    <tags>Entity Framework Core entity-framework-core MySQL EF ORM Data</tags>
+    <repository type="git" url="git://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql" commit="6558f470b887c02c02b5c0adae6109564181d581" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="2.1.2" exclude="Build,Analyzers" />
+        <dependency id="MySqlConnector" version="0.44.1" exclude="Build,Analyzers" />
+        <dependency id="Pomelo.JsonObject" version="2.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

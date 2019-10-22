@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Autofac.Configuration</id>
+    <version>4.1.0</version>
+    <authors>Autofac Contributors</authors>
+    <owners>Autofac Contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <projectUrl>http://autofac.org/</projectUrl>
+    <iconUrl>https://cloud.githubusercontent.com/assets/1156571/13684110/16b8f152-e6bf-11e5-84ae-22c66c6d351a.png</iconUrl>
+    <description>Configuration support for Autofac.</description>
+    <releaseNotes>Release notes are at https://github.com/autofac/Autofac.Configuration/releases</releaseNotes>
+    <tags>autofac di ioc dependencyinjection</tags>
+    <repository type="git" url="https://github.com/autofac/Autofac.Configuration" commit="032145bf00b17ede26b58c319739706cfab51c10" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Autofac" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="1.0.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="Autofac" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.ComponentModel.TypeConverter" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.1.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Autofac" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="1.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

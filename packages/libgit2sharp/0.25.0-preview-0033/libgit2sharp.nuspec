@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>LibGit2Sharp</id>
+    <version>0.25.0-preview-0033</version>
+    <authors>LibGit2Sharp contributors</authors>
+    <owners>LibGit2Sharp contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/libgit2/libgit2sharp/raw/49542c1605/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/libgit2/libgit2sharp/</projectUrl>
+    <iconUrl>https://github.com/libgit2/libgit2sharp/raw/49542c1605/square-logo.png</iconUrl>
+    <description>LibGit2Sharp brings all the might and speed of libgit2, a native Git implementation, to the managed world of .Net and Mono.</description>
+    <releaseNotes>https://github.com/libgit2/libgit2sharp/blob/49542c1605/CHANGES.md#libgit2sharp-changes</releaseNotes>
+    <tags>libgit2 git</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="LibGit2Sharp.NativeBinaries" version="[1.0.185]" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="LibGit2Sharp.NativeBinaries" version="[1.0.185]" />
+        <dependency id="System.Security.SecureString" version="4.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.IO.UnmanagedMemoryStream" version="4.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.TraceSource" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
